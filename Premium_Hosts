@@ -29,10 +29,6 @@ ff02::3		ip6-allhosts
 ::1 pay.igamecj.com
 127.0.0.1 .weiyun.com
 ::1 .weiyun.com   
-127.0.0.1 download.2.1375135419.igame.gcloudcs.com
-::1 download.2.1375135419.igame.gcloudcs.com   
-127.0.0.1 download.2.1950038955.igamekr.gcloudcs.com
-::1 download.2.1950038955.igamekr.gcloudcs.com   
 127.0.0.1 .myapp.com
 ::1 .myapp.com
 127.0.0.1 .qmail.com
@@ -149,7 +145,5 @@ ff02::3		ip6-allhosts
 ::1 .googleapis.com
 127.0.0.1 .googlesyndication.com
 ::1 .googlesyndication.com
-119.28.243.66 ig-us-sdkapi.igamecj.com
-::1 ig-us-sdkapi.igamecj.com
 
 
