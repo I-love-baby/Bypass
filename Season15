@@ -719,7 +719,7 @@ gg.clearResults()
   gg.searchNumber("1", 4, false, 536870912, 0, -1)
   gg.getResults(50)
   gg.editAll("0", 4)
-  gg.toast("𝐋𝐞𝐬𝐬 𝐑𝐞𝐜𝐨𝐢𝐥 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
+  gg.toast("🔫𝐋𝐞𝐬𝐬 𝐑𝐞𝐜𝐨𝐢𝐥 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
   gg.clearResults()
 end
 
