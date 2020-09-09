@@ -432,7 +432,7 @@ gg.addListItems({
           value = 70086
         }
       })
-  gg.alert("💥 Successfully Activated GlobalBypass 💥")
+  gg.alert("💥 Successfully 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝 GlobalBypass 💥")
 end
 end
 end
@@ -464,7 +464,7 @@ gg.clearResults()
   gg.searchNumber("0~9999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.clearResults()
-  gg.alert("💥 Successfully Activated Korea Bypass 💥")
+  gg.alert("💥 Successfully 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝 Korea Bypass 💥")
 end
 
 
@@ -620,7 +620,7 @@ function INLOOBY2(...)
     "☠️ 𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 %95",
     "☠️ 𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 %75",
     "☠️ 𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 %50",
-    "🔫 𝐍𝐨 𝐑𝐞𝐜𝐨𝐢𝐥 ",
+    "🔫 𝐋𝐞𝐬𝐬 𝐑𝐞𝐜𝐨𝐢𝐥 ",
     "📡 𝐀𝐧𝐭𝐞𝐧𝐚",
     "🌱 𝐍𝐨 𝐆𝐫𝐚𝐬𝐬",
     "⬅️ 𝐁 𝐚 𝐜 𝐤"
@@ -634,11 +634,11 @@ function INLOOBY2(...)
       HSHOT75()
     end
     if MNINLOOBY2 == 3 then
-      HSHOT50()
-    end
-    if MNINLOOBY2 == 4 then
-      LESSREC1()
+      HSHOT50()    
     end    
+    if MNINLOOBY2 == 4 then
+      LESSREC2()
+    end 
     if MNINLOOBY2 == 5 then
       ANTEENA2()
     end
@@ -659,7 +659,7 @@ function NOGRASSLOBBY(...)
   gg.getResults(500)
   gg.editAll("0", gg.TYPE_BYTE)
   gg.clearResults()
-  gg.toast("No Grass Activated")
+  gg.toast("No Grass 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
 end
 
 function HSHOT95(...)
@@ -681,7 +681,7 @@ function HSHOT95(...)
   gg.getResults(10)
   gg.editAll("245", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 95% Activated")
+  gg.toast("𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 95% 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
 end
 
 function HSHOT75(...)
@@ -692,7 +692,7 @@ function HSHOT75(...)
   gg.getResults(100)
   gg.editAll("250;300", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 75% Activated")
+  gg.toast("𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 75% 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
 end
 
 function HSHOT50(...)
@@ -703,82 +703,24 @@ function HSHOT50(...)
   gg.getResults(100)
   gg.editAll("200;205", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 50% Activated")
+  gg.toast("𝐇𝐞𝐚𝐝𝐬𝐡𝐨𝐭 50% 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
 end
 
-function LESSREC1(...)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.setVisible(false)
-  gg.searchNumber("-2.2673448e24;-1.36203639e28", 16, false, 536870912, 0, -1)
-  gg.setVisible(false)
-  gg.setVisible(false)
-  gg.searchNumber("-1.36203639e28", 16, false, 536870912, 0, -1)
-  gg.setVisible(false)
-  gg.setVisible(false)
-  gg.getResults(99)
-  gg.editAll("0", 16)
-  gg.clearResults()
-  gg.setVisible(false)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("3.8126822e-21;-1.1144502e28;-2.0291021e20:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("328")
-  gg.getResults(551)
-  gg.editAll("0", gg.TYPE_FLOAT)
+function LESSREC2(...)
+gg.clearResults()
+  gg.setRanges(32)
+  gg.searchNumber("1,868,784,978;1,850,305,641;28,518;13,212::13", 4, false, 536870912, 0, -1)
+  gg.searchNumber("1,850,305,641", 4, false, 536870912, 0, -1)
+  gg.getResults(20)
+  gg.editAll("0", 4)
   gg.clearResults()
   gg.setRanges(32)
-  gg.searchNumber("0.2~0.3;53;30;1::", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.2~0.3;1::", 16, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 16)
+  gg.searchNumber("1;0;0;1,028,443,341;1,090,519,040;1,036,831,949;1,057,803,469;1,092,091,904;1,097,859,072::33", 4, false, 536870912, 0, -1)
+  gg.searchNumber("1", 4, false, 536870912, 0, -1)
+  gg.getResults(50)
+  gg.editAll("0", 4)
+  gg.toast("𝐋𝐞𝐬𝐬 𝐑𝐞𝐜𝐨𝐢𝐥 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
   gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-2.2673448e24;-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("740", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1903895931231645696", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("No Recoil Activated")
 end
 
 
@@ -791,7 +733,7 @@ function ANTEENA2(...)
   gg.getResults(100)
   gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Antenna Activated")
+  gg.toast("Antenna 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
 end
 
 function ANTEENA(...)
@@ -808,7 +750,7 @@ function ANTEENA(...)
   gg.getResults(6)
   gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Antenna Activated")
+  gg.toast("Antenna 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝")
 end
 
 
