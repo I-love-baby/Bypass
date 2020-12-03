@@ -1,4 +1,4 @@
-First = gg.isPackageInstalled("com.ksl.gaming.gg")
+= gg.isPackageInstalled("com.ksl.gaming.gg")
 if First == false then
 gg.alert("Install KSL GG MOD Version️️")
 os.exit()
